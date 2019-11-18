@@ -262,6 +262,7 @@ class _InternationalPhoneNumberInputState
               controller: _controller,
               focusNode: widget.focusNode,
               keyboardType: TextInputType.phone,
+              keyboardAppearance: Brightness.light,
               textInputAction: widget.keyboardAction,
               inputFormatters: _buildInputFormatter(),
               onEditingComplete: widget.onSubmit,
